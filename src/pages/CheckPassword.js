@@ -50,7 +50,7 @@ const CheckPassword= () => {
    e.preventDefault();
    e.stopPropagation();
    
-   const URL = `${process.env.REACT_APP_BACKEND_URL}/api/password`;
+   const URL = 'https://chat-app-backend-jvs4.onrender.com/api/password';
    
 
 
